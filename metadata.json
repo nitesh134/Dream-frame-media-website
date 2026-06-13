@@ -1,0 +1,8 @@
+{
+  "name": "Dream Frame Media",
+  "description": "A premium enterprise-style website for a modern Personal Brand Infrastructure company.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

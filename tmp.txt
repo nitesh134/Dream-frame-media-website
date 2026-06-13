@@ -1,0 +1,136 @@
+124-  return (
+125-    <header className="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-md border-b border-[#E5E5E5] transition-all">
+126-      <div className="max-w-7xl mx-auto px-5 md:px-8 h-16 flex items-center justify-between relative">
+127-        <Link to="/" className="flex items-center gap-3 relative z-50">
+128-          <div className="w-5 h-5 bg-black rounded-[2px]" />
+129:          <span className="font-bold text-sm tracking-wide">Dream Frame Media</span>
+130-        </a>
+131-        <nav className="hidden md:flex items-center gap-8 text-[13px] font-medium text-[#666666] h-full">
+132-          <Link to="/" className={navItemClass(isHomeActive)}><Home className="w-4 h-4" /> Home</Link>
+133-          <div 
+134-            className={`h-full flex items-center cursor-pointer group hover:text-black transition-colors ${isServicesActive ? 'text-black font-bold opacity-100' : 'opacity-80 hover:opacity-100'}`}
+--
+414-            viewport={{ once: true }}
+415-            transition={{ duration: 0.6 }}
+416-            className="flex flex-col gap-8 text-xl text-[#666666] leading-relaxed max-w-none"
+417-          >
+418-            <p className="text-3xl font-medium text-black mb-4 leading-snug tracking-tight">
+419:              Dream Frame Media operates at the intersection of authority positioning, AI automation, and strategic media systems.
+420-            </p>
+421-            <p>
+422-              Most founders and experts treat content as a creative pursuit. We treat it as <strong className="text-black font-bold">inbound lead infrastructure</strong>. Creativity scales poorly; infrastructure scales infinitely.
+423-            </p>
+424-            <p>
+--
+478-        <div className="max-w-3xl mb-16 md:mb-24">
+479-          <h2 className="text-3xl md:text-5xl lg:text-5xl font-bold tracking-tight text-[#1a1a1a] mb-6 md:mb-8 leading-[1.1]">
+480-            Most Agencies Create Content.<br className="hidden md:block"/> We Build Infrastructure.
+481-          </h2>
+482-          <p className="text-lg md:text-xl text-[#666666] leading-relaxed max-w-2xl">
+483:            Dream Frame Media builds scalable authority ecosystems designed for inbound growth, omnichannel visibility, and long-term brand positioning.
+484-          </p>
+485-        </div>
+486-        
+487-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 relative lg:px-4">
+488-          {/* Other Agencies */}
+--
+512-                </li>
+513-              ))}
+514-            </ul>
+515-          </div>
+516-
+517:          {/* Dream Frame Media */}
+518-          <div className="bg-white border-2 border-[#1a1a1a] shadow-[0_8px_30px_rgb(0,0,0,0.04)] p-10 md:p-14 rounded-[2px] relative group transition-all duration-500 hover:-translate-y-2 hover:shadow-[0_20px_40px_rgb(0,0,0,0.08)]">
+519-            <div className="absolute -top-3 -right-3 md:-top-4 md:-right-4">
+520-               <div className="bg-black text-white text-[10px] uppercase font-bold tracking-widest py-2 px-4 shadow-lg">
+521-                 The Infrastructure Approach
+522-               </div>
+523-            </div>
+524-            
+525-            <h3 className="text-2xl lg:text-3xl font-bold mb-4 flex items-center gap-3 text-[#1a1a1a]">
+526:              Dream Frame Media
+527-            </h3>
+528-            <p className="text-[#666666] leading-relaxed mb-10 text-sm md:text-base border-b border-[#E5E5E5] pb-8">
+529:              Dream Frame Media builds structured authority systems designed to transform expertise into scalable inbound ecosystems.
+530-            </p>
+531-            <ul className="space-y-6">
+532-              {[
+533-                "Omnichannel authority systems",
+534-                "Strategic content infrastructure",
+--
+947-      name: "Rishabh Mahipal",
+948-      title: "Founder & CEO, Maximalist",
+949-      initials: "RM",
+950-      time: "2:15 PM",
+951-      messages: [
+952:        { sender: "client", text: "Your team has seriously strong technical knowledge when it comes to video editing and content structuring.\n\nWhat I liked most was that you people actually understand retention, pacing, and audience psychology instead of just adding random effects.\n\nGreat experience working with Dream Frame Media.", time: "2:12 PM" },
+953-        { sender: "dfm", text: "Really appreciate that, Rishabh 🙌\n\nWe always try to combine creativity with strategy so the content doesn’t just look good but also performs. Loved working on your project.", time: "2:15 PM" }
+954-      ]
+955-    },
+956-    {
+957-      name: "Shivam Saluja",
+--
+1062-}
+1063-
+1064-function FaqSection() {
+1065-  const faqs = [
+1066-    {
+1067:      q: "Is Dream Frame Media just a video editing agency?",
+1068:      a: "No. Dream Frame Media is a Personal Brand Infrastructure company focused on building scalable authority systems for founders and experts. We combine strategic content planning, AI workflows, omnichannel distribution, and performance-focused media systems to help brands generate consistent visibility and inbound growth."
+1069-    },
+1070-    {
+1071-      q: "How is your model different from traditional content agencies?",
+1072:      a: "Most agencies focus only on content production. Dream Frame Media focuses on the entire authority ecosystem including strategy, positioning, content systems, AI automation, distribution workflows, and inbound lead infrastructure."
+1073-    },
+1074-    {
+1075-      q: "Do I need to record content every day?",
+1076-      a: "No. Our systems are designed to reduce founder dependency. Through structured recording workflows, strategic repurposing, and AI-powered systems, one recording session can generate weeks of omnichannel content."
+1077-    },
+--
+1091-      q: "What type of founders or businesses do you work with?",
+1092-      a: "We primarily work with founders, coaches, consultants, educators, agency owners, and experts building authority-driven businesses and high-ticket ecosystems."
+1093-    },
+1094-    {
+1095-      q: "Do you support AI-powered content systems?",
+1096:      a: "Yes. Dream Frame Media integrates AI infrastructure including voice cloning, scripting workflows, automation systems, AI repurposing, and distribution workflows to increase scalability and operational efficiency."
+1097-    },
+1098-    {
+1099-      q: "How long does it take to start seeing results?",
+1100-      a: "Authority growth compounds over time, but most clients begin seeing improvements in content consistency, engagement quality, positioning clarity, and platform visibility within the first few weeks of implementation."
+1101-    },
+--
+1103-      q: "Can your systems generate inbound leads?",
+1104-      a: "Our infrastructure is designed to improve visibility, authority positioning, and audience trust which supports stronger inbound lead generation over time through strategic content distribution and conversion-focused workflows."
+1105-    },
+1106-    {
+1107-      q: "What if I already have an internal content team?",
+1108:      a: "Dream Frame Media can integrate with existing teams by providing strategic infrastructure, workflows, systems, AI automation, and scalable production support."
+1109-    },
+1110-    {
+1111-      q: "Is this service suitable for beginners?",
+1112-      a: "Our systems work best for founders, experts, and businesses already serious about building authority, scaling visibility, and investing in long-term content infrastructure."
+1113-    }
+--
+1304-          
+1305-          {/* Column 1: Brand */}
+1306-          <div className="lg:pr-8">
+1307-            <Link to="/" className="flex items-center gap-3 mb-6 group inline-flex">
+1308-              <div className="w-5 h-5 bg-black rounded-[2px] transform group-hover:rotate-90 transition-transform duration-500 ease-[0.22,1,0.36,1]" />
+1309:              <span className="font-bold text-lg tracking-wide">Dream Frame Media</span>
+1310-            </Link>
+1311-            <p className="text-[#666666] leading-relaxed mb-6 text-base">
+1312-              Personal Brand Infrastructure for founders, coaches, consultants, and high-ticket experts.
+1313-            </p>
+1314-            <div className="text-[10px] uppercase tracking-widest font-bold text-[#999999]">
+--
+1359-
+1360-        </div>
+1361-
+1362-        {/* Bottom Footer Bar */}
+1363-        <div className="flex flex-col md:flex-row justify-between items-center text-[#999999] border-t border-[#E5E5E5] pt-8 text-xs font-medium">
+1364:          <p>&copy; {new Date().getFullYear()} Dream Frame Media. All rights reserved.</p>
+1365-          <div className="flex gap-8 mt-4 md:mt-0">
+1366-            <a href="#" className="hover:text-black transition-colors">Privacy Policy</a>
+1367-            <a href="#" className="hover:text-black transition-colors">Terms of Service</a>
+1368-          </div>
+1369-        </div>
