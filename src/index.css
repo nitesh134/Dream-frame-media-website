@@ -1,0 +1,55 @@
+@import url('https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Satoshi", ui-sans-serif, system-ui, sans-serif;
+  
+  --color-black: #000000;
+  --color-white: #FFFFFF;
+  --color-light-gray: #F5F5F5;
+  --color-secondary-text: #666666;
+  --color-border-color: #E5E5E5;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-white);
+  color: var(--color-black);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background-color: var(--color-black);
+  color: var(--color-white);
+}
+
+@keyframes marquee-left {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+@keyframes marquee-right {
+  0% { transform: translateX(-50%); }
+  100% { transform: translateX(0); }
+}
+
+.animate-marquee-left {
+  animation: marquee-left 45s linear infinite;
+  will-change: transform;
+}
+
+.animate-marquee-right {
+  animation: marquee-right 45s linear infinite;
+  will-change: transform;
+}
+
+.pause-on-hover:hover .animate-marquee-left,
+.pause-on-hover:hover .animate-marquee-right {
+  /* Use a slightly slower animation or paused, request says "slow down animation slightly OR pause smoothly". Let's pause smoothly if possible, but CSS animation-play-state: paused is abrupt. Wait, can we change speed? Not with CSS animations directly. Let's just pause it, it's standard and elegant. */
+  animation-play-state: paused;
+}
