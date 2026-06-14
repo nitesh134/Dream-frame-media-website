@@ -64,32 +64,32 @@ import {
 export function AuditIncluded() {
   const cards = [
     {
-      title: "Content Funnel Analysis",
-      desc: "We map your current top, middle, and bottom of funnel content to identify leakage points.",
+      title: "Video Ideas",
+      desc: "Content topics shaped around your expertise, audience questions, and business goals.",
     },
     {
-      title: "Positioning Breakdown",
-      desc: "Tearing down your market message to ensure you occupy a unique category of one.",
+      title: "Scripting Direction",
+      desc: "Clear hooks, structures, talking points, and calls to action for stronger videos.",
     },
     {
-      title: "Audience Gap Mapping",
-      desc: "Analyzing the disconnect between who consumes your content and who actually buys.",
+      title: "Content Planning",
+      desc: "A practical publishing plan that balances authority, reach, trust, and conversion.",
     },
     {
-      title: "CTA Optimization",
-      desc: "Restructuring how you capture attention and route it to your owned audience platforms.",
+      title: "Repurposing Structure",
+      desc: "A system for turning every long-form recording into useful short-form content.",
     },
     {
-      title: "Offer Diagnosis",
-      desc: "Evaluating how effectively your personal brand connects to your backend monetization.",
+      title: "Posting Strategy",
+      desc: "Platform-specific recommendations for cadence, formats, and distribution.",
     },
     {
-      title: "Growth Roadmap",
-      desc: "A phased operational plan to transition from haphazard posting to systematic growth.",
+      title: "Lead-Generation Angles",
+      desc: "Content themes and calls to action that connect attention to your offer.",
     },
     {
-      title: "Authority Strategy Insights",
-      desc: "Executive-level frameworks tailored specifically to your industry and status.",
+      title: "Production Roadmap",
+      desc: "A repeatable workflow your team can follow from idea through publishing.",
     },
   ];
 
@@ -99,7 +99,7 @@ export function AuditIncluded() {
         <div className="text-[10px] font-bold text-[#666666] tracking-widest mb-16 border-b border-[#E5E5E5] pb-4">
           WHAT IS INCLUDED
         </div>
-        <h2 className="text-4xl font-bold mb-16">The Audit Components.</h2>
+        <h2 className="text-4xl font-bold mb-16">Your Content System.</h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-px bg-[#E5E5E5] border border-[#E5E5E5]">
           {cards.map((card, i) => (
@@ -121,4 +121,3 @@ export function AuditIncluded() {
     </section>
   );
 }
-

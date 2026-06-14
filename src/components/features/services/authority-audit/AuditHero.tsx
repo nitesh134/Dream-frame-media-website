@@ -74,14 +74,15 @@ export function AuditHero() {
       ></div>
       <div className="max-w-7xl mx-auto relative z-10 flex flex-col items-center text-center">
         <div className="text-[10px] font-bold text-[#666666] tracking-widest mb-6 border border-[#E5E5E5] rounded-[2px] px-3 py-1.5 uppercase bg-[#FAFAFA]">
-          Authority Engine Audit
+          End-to-End Content Strategy
         </div>
         <h1 className="text-4xl md:text-5xl lg:text-6xl text-balance font-bold tracking-tight mb-8 leading-[1.05] max-w-4xl">
-          Find The Gaps Slowing Your Authority Growth.
+          Turn Your Expertise Into A Clear Content Plan.
         </h1>
         <p className="text-xl md:text-2xl text-[#666666] mb-12 leading-relaxed max-w-3xl">
-          A strategic deep-dive into your content ecosystem, positioning,
-          audience alignment, and conversion infrastructure.
+          Video ideas, scripting direction, content planning, repurposing
+          structure, posting strategy, and lead-generation angles built around
+          your brand.
         </p>
         <a
           href={STRATEGY_CALL_CALENDAR_URL}
@@ -89,7 +90,7 @@ export function AuditHero() {
           rel="noopener noreferrer"
           className="inline-flex items-center gap-3 bg-black text-white px-8 py-4 rounded-[4px] font-bold text-lg hover:bg-black/90 active:scale-[0.98] transition-all"
         >
-          Book Strategy Call <ArrowRight className="w-5 h-5" />
+          Plan Your Content System <ArrowRight className="w-5 h-5" />
         </a>
 
         {/* Hero Visuals */}
@@ -103,7 +104,7 @@ export function AuditHero() {
             <div className="flex items-center gap-2 mb-6">
               <span className="w-2 h-2 rounded-full bg-red-500"></span>
               <span className="text-[10px] font-bold uppercase tracking-widest text-[#999999]">
-                Current Ecosystem
+                Current Content
               </span>
             </div>
             <div className="space-y-4">
@@ -128,18 +129,18 @@ export function AuditHero() {
             <div className="flex items-center gap-2 mb-6">
               <span className="w-2 h-2 rounded-full bg-green-500"></span>
               <span className="text-[10px] font-bold uppercase tracking-widest text-[#999999]">
-                Target Architecture
+                Content Strategy
               </span>
             </div>
             <div className="space-y-4">
               <div className="h-12 border-l-2 border-black bg-[#FAFAFA] rounded-r-[2px] flex items-center px-4 font-medium text-sm">
-                Omnichannel Distribution
+                Publishing Plan
               </div>
               <div className="h-12 border-l-2 border-black bg-[#FAFAFA] rounded-r-[2px] flex items-center px-4 font-medium text-sm">
-                Category Design
+                Content Pillars
               </div>
               <div className="h-12 border-l-2 border-black bg-[#FAFAFA] rounded-r-[2px] flex items-center px-4 font-medium text-sm">
-                Conversion Infrastructure
+                Lead-Generation Angles
               </div>
             </div>
           </div>
@@ -148,4 +149,3 @@ export function AuditHero() {
     </section>
   );
 }
-

@@ -58,10 +58,9 @@ export function HeroSection() {
           transition={{ duration: 0.8, delay: 0.2, ease: [0.22, 1, 0.36, 1] }}
           className="text-lg sm:text-[19px] md:text-2xl text-[#666666] font-medium leading-relaxed max-w-3xl text-center mb-12 md:mb-16"
         >
-          We edit YouTube videos, reels, podcasts, talking-head content, and ad
-          creatives for founders, creators, clinics, wellness brands, and
-          service businesses. One reliable team, from raw footage to
-          platform-ready content.
+          We help founders, coaches, consultants, creators, and brands plan,
+          edit, repurpose, and scale high-retention YouTube and short-form
+          content with one reliable creative partner.
         </motion.p>
 
         <motion.div
@@ -122,7 +121,7 @@ export function HeroSection() {
         >
           <Layers className="w-4 h-4 text-[#999999]" />
           <div className="text-[10px] font-mono text-[#666666] uppercase tracking-widest">
-            YouTube, Reels & Podcasts
+            YouTube & Short-Form
           </div>
         </motion.div>
 

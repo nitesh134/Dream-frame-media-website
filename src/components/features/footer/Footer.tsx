@@ -50,8 +50,8 @@ export function Footer() {
             <Logo />
 
             <p className="text-[#666666] leading-relaxed mb-6 text-base">
-              Premium video editing and content repurposing for founders,
-              creators, clinics, wellness brands, and service businesses.
+              YouTube editing, short-form editing, content strategy, and AI
+              content systems for founders, creators, and brands.
             </p>
             <div className="text-[10px] uppercase tracking-widest font-bold text-[#999999]">
               6+ Years. 500+ Projects. 200M+ Views.
@@ -64,67 +64,6 @@ export function Footer() {
               Services
             </h4>
             <ul className="space-y-4 text-base font-medium text-[#666666]">
-              <li className="text-[10px] uppercase font-bold text-black tracking-widest pt-2 pb-1 relative">
-                Strategy & Repurposing
-              </li>
-              <li>
-                <Link
-                  to="/services/authority-engine-audit"
-                  className="hover:text-black transition-colors flex items-center gap-2 group -ml-2 p-2 rounded-[2px]"
-                >
-                  <span className="w-0 overflow-hidden group-hover:w-3 transition-all duration-300 h-px bg-black opacity-0 group-hover:opacity-100"></span>
-                  Content Strategy & Audit
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to="/services/content-os"
-                  className="hover:text-black transition-colors flex items-center gap-2 group -ml-2 p-2 rounded-[2px]"
-                >
-                  <span className="w-0 overflow-hidden group-hover:w-3 transition-all duration-300 h-px bg-black opacity-0 group-hover:opacity-100"></span>
-                  Content Repurposing
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to="/services/founder-infrastructure"
-                  className="hover:text-black transition-colors flex items-center gap-2 group -ml-2 p-2 rounded-[2px]"
-                >
-                  <span className="w-0 overflow-hidden group-hover:w-3 transition-all duration-300 h-px bg-black opacity-0 group-hover:opacity-100"></span>
-                  Talking Head Video Editing
-                </Link>
-              </li>
-
-              <li className="text-[10px] uppercase font-bold text-black tracking-widest pt-6 pb-1 relative">
-                Video Editing
-              </li>
-              <li>
-                <Link
-                  to="/services/short-form-editing"
-                  className="hover:text-black transition-colors flex items-center gap-2 group -ml-2 p-2 rounded-[2px]"
-                >
-                  <span className="w-0 overflow-hidden group-hover:w-3 transition-all duration-300 h-px bg-black opacity-0 group-hover:opacity-100"></span>
-                  Reels & Shorts Editing
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to="/services/podcast-repurposing"
-                  className="hover:text-black transition-colors flex items-center gap-2 group -ml-2 p-2 rounded-[2px]"
-                >
-                  <span className="w-0 overflow-hidden group-hover:w-3 transition-all duration-300 h-px bg-black opacity-0 group-hover:opacity-100"></span>
-                  Podcast Editing
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to="/services/ads-and-ugc-editing"
-                  className="hover:text-black transition-colors flex items-center gap-2 group -ml-2 p-2 rounded-[2px]"
-                >
-                  <span className="w-0 overflow-hidden group-hover:w-3 transition-all duration-300 h-px bg-black opacity-0 group-hover:opacity-100"></span>
-                  UGC & Ad Creative Editing
-                </Link>
-              </li>
               <li>
                 <Link
                   to="/services/youtube-editing"
@@ -132,6 +71,24 @@ export function Footer() {
                 >
                   <span className="w-0 overflow-hidden group-hover:w-3 transition-all duration-300 h-px bg-black opacity-0 group-hover:opacity-100"></span>
                   YouTube Video Editing
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/services/short-form-editing"
+                  className="hover:text-black transition-colors flex items-center gap-2 group -ml-2 p-2 rounded-[2px]"
+                >
+                  <span className="w-0 overflow-hidden group-hover:w-3 transition-all duration-300 h-px bg-black opacity-0 group-hover:opacity-100"></span>
+                  Short-Form Video Editing
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/services/authority-engine-audit"
+                  className="hover:text-black transition-colors flex items-center gap-2 group -ml-2 p-2 rounded-[2px]"
+                >
+                  <span className="w-0 overflow-hidden group-hover:w-3 transition-all duration-300 h-px bg-black opacity-0 group-hover:opacity-100"></span>
+                  End-to-End Content Strategy
                 </Link>
               </li>
               <li>

@@ -70,11 +70,11 @@ export function AuditCTA() {
           <Zap className="w-8 h-8 text-black" />
         </div>
         <h2 className="text-4xl md:text-5xl lg:text-6xl text-balance font-bold tracking-tight mb-8">
-          Build A Clear Authority Growth Strategy.
+          Build A Content System You Can Actually Execute.
         </h2>
         <p className="text-xl text-[#666666] mb-12 max-w-2xl mx-auto">
-          Stop guessing with your content. Get a documented architectural plan
-          for your personal brand.
+          Replace scattered posting with a clear plan for ideas, scripts,
+          production, repurposing, publishing, and lead generation.
         </p>
         <a
           href={STRATEGY_CALL_CALENDAR_URL}
@@ -82,10 +82,9 @@ export function AuditCTA() {
           rel="noopener noreferrer"
           className="inline-flex items-center gap-3 bg-black text-white px-10 py-5 rounded-[4px] font-bold text-lg hover:bg-black/90 active:scale-[0.98] transition-all"
         >
-          Book Strategy Call <ArrowRight className="w-5 h-5" />
+          Book a Strategy Call <ArrowRight className="w-5 h-5" />
         </a>
       </div>
     </section>
   );
 }
-

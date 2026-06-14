@@ -6,7 +6,7 @@ export interface LandingFaqEntry {
 export const LANDING_FAQ_ITEMS: LandingFaqEntry[] = [
   {
     q: "What video editing services do you offer?",
-    a: "We edit YouTube videos, Reels and Shorts, podcasts, talking-head videos, UGC, and ad creatives. We also repurpose long-form recordings into platform-ready short-form content and build AI-assisted content workflows.",
+    a: "Our four core services are YouTube Video Editing, Short-Form Video Editing, End-to-End Content Strategy, and AI Content Systems. Together, they cover planning, production, repurposing, and scalable publishing.",
   },
   {
     q: "Who do you work with?",
@@ -14,15 +14,15 @@ export const LANDING_FAQ_ITEMS: LandingFaqEntry[] = [
   },
   {
     q: "Do I need to record content every day?",
-    a: "No. With content repurposing, one podcast, webinar, interview, or recording session can become multiple long-form and short-form deliverables for several platforms.",
+    a: "No. Our content strategy and AI workflows help turn one webinar, interview, or recording session into multiple long-form and short-form deliverables for several platforms.",
   },
   {
     q: "What platforms do you optimize content for?",
-    a: "We prepare content for YouTube, Instagram, TikTok, LinkedIn, YouTube Shorts, podcast platforms, and paid social channels based on your goals and audience.",
+    a: "We prepare content for YouTube, Instagram, TikTok, LinkedIn, and YouTube Shorts based on your goals and audience.",
   },
   {
     q: "Do you help with content strategy or only editing?",
-    a: "Both. Editing is our core service, and we can also help with hooks, content structure, platform fit, calls to action, repurposing plans, and ongoing content strategy.",
+    a: "Both. Our End-to-End Content Strategy covers video ideas, scripting direction, planning, repurposing structure, posting strategy, and lead-generation content angles.",
   },
   {
     q: "How does the onboarding process work?",

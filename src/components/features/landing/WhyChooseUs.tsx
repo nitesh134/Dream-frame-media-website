@@ -11,7 +11,7 @@ export function WhyChooseUs() {
     {
       num: "02",
       title: "Platform-Native Content",
-      desc: "Edits tailored for YouTube, Reels, Shorts, TikTok, LinkedIn, podcasts, and paid ads.",
+      desc: "Edits tailored for YouTube, Reels, Shorts, TikTok, and LinkedIn.",
     },
     {
       num: "03",

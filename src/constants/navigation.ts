@@ -1,5 +1,5 @@
 import type { LucideIcon } from "lucide-react";
-import { Bot, Play, Repeat2 } from "lucide-react";
+import { Bot, Lightbulb, Play } from "lucide-react";
 
 export interface NavServiceLink {
   to: string;
@@ -18,26 +18,19 @@ export const SERVICE_MENU_COLUMNS: NavServiceColumn[] = [
     Icon: Play,
     links: [
       { to: "/services/youtube-editing", label: "YouTube Video Editing" },
-      { to: "/services/short-form-editing", label: "Reels & Shorts Editing" },
-      { to: "/services/podcast-repurposing", label: "Podcast Editing" },
       {
-        to: "/services/founder-infrastructure",
-        label: "Talking Head Video Editing",
+        to: "/services/short-form-editing",
+        label: "Short-Form Video Editing",
       },
     ],
   },
   {
-    title: "Repurposing & Creative",
-    Icon: Repeat2,
+    title: "Content Strategy",
+    Icon: Lightbulb,
     links: [
       {
-        to: "/services/ads-and-ugc-editing",
-        label: "UGC & Ad Creative Editing",
-      },
-      { to: "/services/content-os", label: "Content Repurposing" },
-      {
         to: "/services/authority-engine-audit",
-        label: "Content Strategy & Audit",
+        label: "End-to-End Content Strategy",
       },
     ],
   },
@@ -50,20 +43,13 @@ export const SERVICE_MENU_COLUMNS: NavServiceColumn[] = [
 
 export const MOBILE_SERVICE_LINKS: NavServiceLink[] = [
   { to: "/services/youtube-editing", label: "YouTube Video Editing" },
-  { to: "/services/short-form-editing", label: "Reels & Shorts Editing" },
-  { to: "/services/podcast-repurposing", label: "Podcast Editing" },
   {
-    to: "/services/founder-infrastructure",
-    label: "Talking Head Video Editing",
+    to: "/services/short-form-editing",
+    label: "Short-Form Video Editing",
   },
-  {
-    to: "/services/ads-and-ugc-editing",
-    label: "UGC & Ad Creative Editing",
-  },
-  { to: "/services/content-os", label: "Content Repurposing" },
   {
     to: "/services/authority-engine-audit",
-    label: "Content Strategy & Audit",
+    label: "End-to-End Content Strategy",
   },
   { to: "/services/ai-content-system", label: "AI Content System" },
 ];

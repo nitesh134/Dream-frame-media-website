@@ -1,6 +1,7 @@
 import { AnimatePresence } from "motion/react";
 import {
   BrowserRouter as Router,
+  Navigate,
   Route,
   Routes,
   useLocation,
@@ -10,11 +11,7 @@ import { Navbar } from "@/components/features/navigation/Navbar";
 import { Footer } from "@/components/features/footer/Footer";
 import { LandingPage } from "@/components/features/landing/LandingPage";
 import { AuthorityAuditPage } from "@/components/features/services/authority-audit/AuthorityAuditPage";
-import { ContentOsRetainerPage } from "@/components/features/services/content-os/ContentOsRetainerPage";
-import { FounderInfrastructurePage } from "@/components/features/services/founder-infrastructure/FounderInfrastructurePage";
 import { ShortFormEditingPage } from "@/components/features/services/short-form/ShortFormEditingPage";
-import { PodcastRepurposingPage } from "@/components/features/services/podcast/PodcastRepurposingPage";
-import { AdsUgcEditingPage } from "@/components/features/services/ads-ugc/AdsUgcEditingPage";
 import { YouTubeEditingPage } from "@/components/features/services/youtube/YouTubeEditingPage";
 import { AIContentSystemPage } from "@/components/features/services/ai-content/AIContentSystemPage";
 import { WorkGalleryPage } from "@/components/features/work/WorkGalleryPage";
@@ -55,19 +52,11 @@ function AppContent() {
             />
             <Route
               path="/services/content-os"
-              element={
-                <PageTransition>
-                  <ContentOsRetainerPage />
-                </PageTransition>
-              }
+              element={<Navigate to="/services/authority-engine-audit" replace />}
             />
             <Route
               path="/services/founder-infrastructure"
-              element={
-                <PageTransition>
-                  <FounderInfrastructurePage />
-                </PageTransition>
-              }
+              element={<Navigate to="/services/youtube-editing" replace />}
             />
             <Route
               path="/services/short-form-editing"
@@ -79,19 +68,11 @@ function AppContent() {
             />
             <Route
               path="/services/podcast-repurposing"
-              element={
-                <PageTransition>
-                  <PodcastRepurposingPage />
-                </PageTransition>
-              }
+              element={<Navigate to="/services/youtube-editing" replace />}
             />
             <Route
               path="/services/ads-and-ugc-editing"
-              element={
-                <PageTransition>
-                  <AdsUgcEditingPage />
-                </PageTransition>
-              }
+              element={<Navigate to="/services/short-form-editing" replace />}
             />
             <Route
               path="/services/youtube-editing"

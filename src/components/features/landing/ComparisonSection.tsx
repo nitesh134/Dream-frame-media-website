@@ -77,7 +77,7 @@ export function ComparisonSection() {
                 "Retention-focused storytelling",
                 "Premium motion and sound design",
                 "Platform-native deliverables",
-                "YouTube, short-form, podcasts, and ads",
+                "YouTube and short-form production",
                 "Conversion-aware creative choices",
                 "Consistent brand presentation",
                 "Long-form to short-form repurposing",

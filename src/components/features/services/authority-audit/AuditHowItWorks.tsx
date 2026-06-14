@@ -70,23 +70,23 @@ export function AuditHowItWorks() {
     },
     {
       num: "02",
-      title: "Content Ecosystem Audit",
-      desc: "Our team conducts a deep analytical review of all publishing channels.",
+      title: "Content Opportunity Review",
+      desc: "We review your current channels, audience, offer, and strongest opportunities.",
     },
     {
       num: "03",
-      title: "Positioning Evaluation",
-      desc: "We cross-reference your output with your desired market perception.",
+      title: "Ideas & Messaging",
+      desc: "We define content pillars, formats, hooks, and messaging that fit your brand.",
     },
     {
       num: "04",
-      title: "Growth Infrastructure Mapping",
-      desc: "Designing the custom systems needed to scale your authority.",
+      title: "Production & Repurposing Plan",
+      desc: "We map how ideas move from recording to long-form and short-form content.",
     },
     {
       num: "05",
-      title: "Strategy Call & Roadmap Delivery",
-      desc: "A concluding intensive where we hand over the architectural blueprints.",
+      title: "Strategy Call & Roadmap",
+      desc: "We deliver the plan, priorities, publishing cadence, and recommended next steps.",
     },
   ];
 
@@ -131,4 +131,3 @@ export function AuditHowItWorks() {
     </section>
   );
 }
-
